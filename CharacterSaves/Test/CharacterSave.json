@@ -1,0 +1,24 @@
+{
+    "Save File Started" : true,
+    "Started Dungeon" : false,
+    "Preferences" : {
+        "Name" : "Tester",
+        "Character" : "Wraith",
+        "Character_Style" : 0
+    },
+    "Progresion" : {
+        "Difficulty Level" : 99,
+        "Stores Opened" : 0,
+        "Fight Zones Opened" : 99,
+        "Coins" : 9999999999999,
+        "Position" : 0
+    },
+    "Skills" : {
+        "Health Points" : 1000,
+        "Regen" : 1000,
+        "Damage" : 1000,
+        "Resistance" : 1000,
+        "Speed" : 1000,
+        "Dexterity" : 1000
+    }
+}

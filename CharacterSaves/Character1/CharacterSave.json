@@ -1,0 +1,24 @@
+{
+    "Save File Started": true,
+    "Started Dungeon": false,
+    "Preferences": {
+        "Name": "Nilitox",
+        "Character": "Wraith",
+        "Character_Style": 0
+    },
+    "Progresion": {
+        "Difficulty Level": 0,
+        "Stores Opened": 0,
+        "Fight Zones Opened": 0,
+        "Coins": 0,
+        "Position": 0
+    },
+    "Skills": {
+        "Health Points": 0,
+        "Regen": 0,
+        "Damage": 0,
+        "Resistance": 0,
+        "Speed": 0,
+        "Dexterity": 0
+    }
+}
