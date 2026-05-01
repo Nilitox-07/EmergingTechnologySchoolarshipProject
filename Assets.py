@@ -10,7 +10,7 @@ if getattr(sys, 'frozen', False):
 else:
     BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 
-All_Characters_Images: dict[str, str] = {'Wraith' : ["Wraith_01", "Wraith_02", "Wraith_03"],
+All_Characters_Images: dict[str, list[str]] = {'Wraith' : ["Wraith_01", "Wraith_02", "Wraith_03"],
                                          'Satyr' : ["Satyr_01", "Satyr_02", "Satyr_03"],
                                          'Minotaur' : ["Minotaur_01", "Minotaur_02", "Minotaur_03"],
                                          'Golem' : ["Golem_01", "Golem_02", "Golem_03"]}

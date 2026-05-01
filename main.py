@@ -28,6 +28,8 @@ from typing import Any
 import Assets
 from LevelCreationAlgorithm import LevelCreation
 
+pygame.init()
+
 class Start_Screen:
     def __init__(self, Core: Core):
         self.Core = Core
@@ -884,7 +886,7 @@ class Core:
         Width = Info.current_w
         Height = Info.current_h
 
-        self.Screen: pygame.Surface = pygame.display.set_mode((Width, Height), pygame.DOUBLEBUF | pygame.FULLSCREEN)
+        self.Screen: pygame.Surface = pygame.display.set_mode((Width, Height), pygame.DOUBLEBUF | pygame.RESIZABLE)
         
         #Screen Control
         

@@ -32,7 +32,7 @@ run = True
 
 
 
-with open('levels_test_grid.json', 'r') as File:
+with open('Tests/levels_test_grid.json', 'r') as File:
     data = json.load(File)
 
 
@@ -64,4 +64,4 @@ for key, val in data.items():
     
     pygame.display.flip()
     
-    pygame.image.save(screen, f"GridTests/screenshot{key}.png")
+    pygame.image.save(screen, f"Tests/GridTests/screenshot{key}.png")
